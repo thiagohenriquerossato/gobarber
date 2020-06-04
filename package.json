@@ -8,7 +8,7 @@
     "dev": "nodemon src/server.js",
     "queue": "nodemon src/queue.js",
     "debug": "node --inspect-brk -r sucrase/register src/server.js",
-    "start": "node src/server.js"
+    "start": "nodemon src/server.js"
   },
   "dependencies": {
     "@sentry/node": "5.15.4",
