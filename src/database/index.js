@@ -33,7 +33,10 @@ class Database {
         useFinAndModify: true,
       },
     };
-    this.mongoConnection = mongoose.connect(mongo.uri, mongo.ppt);
+    this.mongoConnection = mongoose.connect(
+      'mongodb://localhost:27017/gobarber',
+      mongo.ppt
+    );
     /* this.mongoConnection = mongoose.connect(
       'mongodb://localhost:27017/gobarber',
       { userNewUrleParser: true, useFinAndModify: true }
