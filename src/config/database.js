@@ -11,4 +11,7 @@ module.exports = {
     underscored: true,
     underscoredAll: true,
   },
+  dialectOptions: {
+    encrypt: true,
+  },
 };
