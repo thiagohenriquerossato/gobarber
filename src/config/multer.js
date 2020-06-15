@@ -30,5 +30,5 @@ const storageTypes = {
 };
 
 export default {
-  storage: storageTypes.local,
+  storage: storageTypes.s3,
 };
