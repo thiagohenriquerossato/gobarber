@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@sentry/node": "5.15.4",
-    "aws-sdk": "^2.689.0",
+    "aws-sdk": "^2.814.0",
     "bcrypt": "^4.0.1",
     "bee-queue": "^1.2.3",
     "cors": "^2.8.5",
